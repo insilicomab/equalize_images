@@ -1,0 +1,7 @@
+services:
+  equalization:
+    build: .
+    volumes:
+      - ./input:/opt/input
+      - ./src:/opt/src
+      - ./outputs:/opt/outputs
