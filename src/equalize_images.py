@@ -38,7 +38,7 @@ def main(args):
 
             for file in files:
                 # 画像ファイル(png)のみ処理
-                if file.lower().endswith(".png"):
+                if file.lower().endswith((".png", ".PNG", ".jpg", ".jpeg", ".JPG")):
                     # inputパス
                     input_path = Path(root) / file
 
